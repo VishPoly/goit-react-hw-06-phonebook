@@ -26,8 +26,8 @@ export const Filter = () => {
     </FilterContainer>
   );
 };
-
 Filter.propTypes = {
   filter: PropTypes.string,
   onFilter: PropTypes.func,
 };
+

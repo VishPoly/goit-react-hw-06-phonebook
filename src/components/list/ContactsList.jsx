@@ -33,8 +33,8 @@ export const ContactList = () => {
     </div>
   );
 };
-
 ContactList.propTypes = {
   contactsInfo: PropTypes.arrayOf(PropTypes.shape),
   deleteContact: PropTypes.func,
 };
+
